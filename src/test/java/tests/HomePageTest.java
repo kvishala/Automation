@@ -14,7 +14,7 @@ public class HomePageTest {
 	}
 
 	@Test
-	public void verifyWomenTab1() {
+	public void verifyWomenTabtst() {
 		Assert.assertTrue(homePage.elementFound(homePage.getLnkTxtWomen()), "Failed: women tab not found");
 	}
 
